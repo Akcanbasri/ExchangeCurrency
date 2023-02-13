@@ -1,0 +1,1 @@
+This code shows you the value of TL against other currencies via https://www.doviz.com/
