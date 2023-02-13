@@ -45,17 +45,26 @@ for klasor_yolu, klasor_ismi, dosya_ismi in os.walk("C:/Users/Lenova/Desktop"):
         if i.endswith(".txt"):
             print(i)"""
 
-# masa üstündeki tüm python, text ve pdfleri text dosyasına yazan kod
+# masa üstündeki tüm resim, text ve pdfleri text dosyasına yazan kod
+mp4_list = []
+text_list = []
+pdf_list = []
 for klasor_yolu, klasör_ismi, dosya_ismi in os.walk("C:/Users/Lenova/Desktop"):
     for i in dosya_ismi:
-        if i.endswith(".py"):
-            with open("Python.txt", "w", encoding="utf-8") as file:
-                file.write(i + "\n")
+        if i.endswith(".JPG"):
+            mp4_list.append(i)
+            with open("JPG.txt", "w", encoding="UTF-8") as file:
+                for j in mp4_list:
+                    file.write(j + "\n")
 
         elif i.endswith(".txt"):
-            with open("Text.txt", "w", encoding="utf-8") as file:
-                file.write(i + "\n")
+            text_list.append(i)
+            with open("Text.txt", "w", encoding="UTF-8") as file:
+                for j in text_list:
+                    file.write(j + "\n")
 
         elif i.endswith(".pdf"):
-            with open("Pdf.txt", "w", encoding="utf-8") as file:
-                file.write(i + "\n")
+            pdf_list.append(i)
+            with open("Pdf.txt", "w", encoding="UTF-8") as file:
+                for j in pdf_list:
+                    file.write(j + "\n")

@@ -1,1 +1,18 @@
+data vize.pdf
+data örnek.pdf
+deneme.pdf
+adli-sicil-kaydi.pdf
+CV GÜNCEL.pdf
+Erasmus onay belgesi.pdf
+Hasan Basri Akcan Erasmus Dönüş Belgeler[1974].pdf
+Herkes_için_Yapay_Zeka_I-Sertifika_272064.pdf
+Kişisel_Stres_Yönetimi-Sertifika_272237.pdf
+transkript.pdf
+yok-ogrenci-belgesi-sorgulama.pdf
+ÖSYM Sonuç Açıklama Sistemi.pdf
+Bilgisayar Mühendisliği Staj Raporu.pdf
+kimlik.pdf
+sağlık beyanı.pdf
+spas-mustahaklik-sorgulama.pdf
+staj belgesi.pdf
 Staj_devam_çizelgesi.pdf
