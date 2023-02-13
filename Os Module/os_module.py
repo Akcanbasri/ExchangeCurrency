@@ -45,10 +45,7 @@ for klasor_yolu, klasor_ismi, dosya_ismi in os.walk("C:/Users/Lenova/Desktop"):
         if i.endswith(".txt"):
             print(i)"""
 
-mp4_list = list()
-text_list = list()
-pdf_list = list()
-
+# masa üstündeki tüm python, text ve pdfleri text dosyasına yazan kod
 for klasor_yolu, klasör_ismi, dosya_ismi in os.walk("C:/Users/Lenova/Desktop"):
     for i in dosya_ismi:
         if i.endswith(".py"):
